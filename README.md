@@ -6,8 +6,11 @@ NVIDIA Corporation <br />
 In International Conferene on Computer Vision (**ICCV**) 2019. <br />
 ( * Currently affiliated with Google. ) <br /> 
 
-<img src="figures/teaser.png"  width="480" height="275"> <img src="figures/teaser2.png"  width="540" height="200"> 
-
+<p float="left">
+  <img src="figures/teaser.png" width="400" height="230" />
+  <img src="figures/teaser2.png" width="450" height="167" /> 
+</p
+    
 ## Installation 
 
     # Get unsupervised video interpolation source codes
@@ -95,8 +98,10 @@ python3 eval.py --model CycleHJSuperSloMo --num_interp 7 --flow_scale 2 --val_fi
 - For a simple test on two input frames, set `--val_file` to the folder containing both frames, and set `--val_sample_rate 0`, `--val_step_size 1`.
 
 ## Images : Results and Comparisons
-<img src="figures/result1.png"  width="516"> <img src="figures/result2.png"  width="480"> 
-
+<p float="left">
+  <img src="figures/result1.png" width="420" />
+  <img src="figures/result2.png" width="385" /> 
+</p
 ## Videos : Results and Comparisons
 <div class="video-fallback">
   <a href="https://drive.google.com/uc?export=view&id=1DgF-0r1agSy9Y77Bthm_w135qOABc3Xd"><img src="https://drive.google.com/uc?export=view&amp;id=1YN-nKJW4i23gC1ueZFtA5GEN_p7CAWGA" width="1024" /></a>.
